@@ -804,3 +804,50 @@ h3.my-profession{
         font-size: 14px;
     }
 }
+
+@media (max-width: 320px) {
+    .section {
+        padding: 0 10px;
+    }
+    .section .container {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    .section-title h2 {
+        font-size: 22px;
+    }
+    h3.hello {
+        font-size: 18px;
+    }
+    h3.my-profession {
+        font-size: 18px;
+    }
+    .home-info p {
+        font-size: 14px;
+    }
+    .about .about-content .personal-info .info-items p {
+        font-size: 12px;
+    }
+    .service .service-item .service-item-inner h4 {
+        font-size: 14px;
+    }
+    .contact-title {
+        font-size: 16px;
+    }
+    .contact-sub-title {
+        font-size: 12px;
+    }
+    .btn {
+        font-size: 12px;
+        padding: 8px 25px;
+    }
+    .aside .logo a {
+        font-size: 20px;
+    }
+    .aside .logo a span {
+        font-size: 24px;
+    }
+    .home .home-img img {
+        max-height: 40vh;
+    }
+}
