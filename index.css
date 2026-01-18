@@ -851,3 +851,50 @@ h3.my-profession{
         max-height: 40vh;
     }
 }
+
+@media (max-width: 280px) {
+    .section {
+        padding: 0 5px;
+    }
+    .section .container {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    .section-title h2 {
+        font-size: 18px;
+    }
+    h3.hello {
+        font-size: 16px;
+    }
+    h3.my-profession {
+        font-size: 16px;
+    }
+    .home-info p {
+        font-size: 12px;
+    }
+    .about .about-content .personal-info .info-items p {
+        font-size: 10px;
+    }
+    .service .service-item .service-item-inner h4 {
+        font-size: 12px;
+    }
+    .contact-title {
+        font-size: 14px;
+    }
+    .contact-sub-title {
+        font-size: 10px;
+    }
+    .btn {
+        font-size: 10px;
+        padding: 6px 20px;
+    }
+    .aside .logo a {
+        font-size: 18px;
+    }
+    .aside .logo a span {
+        font-size: 20px;
+    }
+    .home .home-img img {
+        max-height: 30vh;
+    }
+}
